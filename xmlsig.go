@@ -159,7 +159,6 @@ func newSignature() *Signature {
 		"http://www.w3.org/2001/10/xml-exc-c14n#"
 	transforms := &signature.SignedInfo.Reference.Transforms.Transform
 	*transforms = append(*transforms, Algorithm{"http://www.w3.org/2000/09/xmldsig#enveloped-signature"})
-	*transforms = append(*transforms, Algorithm{"http://www.w3.org/2001/10/xml-exc-c14n#"})
 	return signature
 }
 
