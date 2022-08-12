@@ -1,1 +1,1 @@
-module github.com/amdonov/xmlsig
+module github.com/mohitgoyal2011/xmlsig
